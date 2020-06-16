@@ -1,0 +1,24 @@
+@use "@/styles/base";
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+
+  .page-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+}
+
+.page-actions {
+  display: flex;
+
+  div {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+}
+
+.not-found {
+  color: red !important;
+}

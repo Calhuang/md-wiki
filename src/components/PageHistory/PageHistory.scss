@@ -1,0 +1,24 @@
+@use "@/styles/base";
+
+.page-history {  
+  .history-headers {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+
+    div {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+
+  .history-items {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    overflow: scroll;
+
+    .diff-link {
+      cursor: pointer;
+      color: blue;
+    }
+  }
+}
